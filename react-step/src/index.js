@@ -11,7 +11,8 @@ function tick(){
             <h2>It is {new Date().toLocaleTimeString()}.</h2>
         </div>
     );
-    ReactDOM.render(<App />, document.getElementById('root'));
 }
+
+ReactDOM.render(<App />, document.getElementById('root'));
 
 serviceWorker.register();

@@ -6,7 +6,7 @@ class Login extends Component {
         return (
             <div>
                 <h2>Login</h2>
-                <Link to="/menu">
+                <Link to="/menu/create">
                     <button>submit</button>
                 </Link>
             </div>
